@@ -1,6 +1,6 @@
 function generateRandomNumber() {
     let min =1;
-    let max = parseInt(document.getElementById("max").value);
+    let max = 350;
 
     if (isNaN(min) || isNaN(max) || min >= max) {
         document.getElementById("result").innerText = "Enter a valid range!";
@@ -8,5 +8,6 @@ function generateRandomNumber() {
     }
 
     let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-    document.getElementById("result").innerText = `Random Number: ${randomNumber}`;
+    document.getElementById("result").innerText = `رقم الفايز: 
+    ${randomNumber}`;
 }

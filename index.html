@@ -39,21 +39,32 @@
           background: #218838;
       } */
       .result {
-          font-size: 50px;
+          font-size: 65px;
           font-weight: bold;
-          margin-top: 150px;
+          margin-top: 100px;
+          margin-bottom: 100px;
       }
   </style>
 </head>
 <body>
 
+    <div class="container">
+        <div class="row justify-content-between ">
+            <img class=" col-4" style="width: 15%;" src="img/لوجو لجنة الشباب.png" alt="logo" >
+            <img class=" col-4" style="width: 15%;" src="img/logo trend.png" alt="logo" >
+         </div>
+    </div>
+
   <div class="container  row row justify-content-center">
-      <h2>Random Number Generator</h2>
+      <!-- <h2>Random Number Generator</h2> -->
       
-      <input class="row row justify-content-center" type="number" id="max" placeholder="Enter Max Value">
-      <button class="btn btn-outline-success row row justify-content-center" onclick="generateRandomNumber()">Generate</button>
-      <p class="result" id="result">Your number will appear here</p>
-  </div>
+      
+    
+    
+      <p class="result" id="result"> رقم الفايز هيظهر هنا</p>
+  
+      <button class="btn btn-outline-success row row justify-content-center" onclick="generateRandomNumber()">اختار فايز</button>
+    </div>
 
     
     <script src="js/script.js"></script>
