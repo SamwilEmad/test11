@@ -8,6 +8,6 @@ function generateRandomNumber() {
     }
 
     let randomNumber = Math.floor(Math.random() * (max - min + 1)) + min;
-    document.getElementById("result").innerText = `رقم الفايز: 
+    document.getElementById("result").innerText = `رقم الفائز: 
     ${randomNumber}`;
 }
